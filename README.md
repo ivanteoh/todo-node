@@ -17,6 +17,7 @@ Deploy to Heroku
 Test this application in Heroku
 
     * heroku create
+    * heroku addons:add mongolab:sandbox
     * git push heroku master
     * heroku ps:scale web=1
     * heroku open
