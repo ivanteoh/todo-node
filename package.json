@@ -1,12 +1,18 @@
 {
-  "name": "application-name",
+  "name": "todo-node",
   "version": "0.0.1",
   "private": true,
+  "description": "Todo Node.js example",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
     "express": "3.2.6",
     "hjs": "*"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
   }
 }
