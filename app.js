@@ -5,6 +5,7 @@
 
 var express = require('express')
   , routes = require('./routes')
+  , todos = require('./routes/todos')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path');
@@ -30,6 +31,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/tasks', todos.list);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

@@ -1,0 +1,18 @@
+<!DOCTYPE html/>
+<html>
+    <head>
+        <title>{{ title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <h1>Tasks</h1>
+        <p>Waiting for you.</p>
+        <div id="todos">
+            {{ todos.forEach(function(todo) { }}
+                <div class="todo">
+                    <h2>{{ todo.title }}</h2>
+                </div>
+            {{ }) }}
+        </div>
+    </body>
+</html>
