@@ -10,7 +10,7 @@
   "dependencies": {
     "express": "3.2.6",
     "hjs": "*",
-    "mongoose": "3.5.7"
+    "mongoose": "3.6.11"
   },
   "engines": {
     "node": "0.10.x",
